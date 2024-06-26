@@ -2,3 +2,4 @@
 .venv
 .vscode
 token_tg.py
+**/__pycache__
