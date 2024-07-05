@@ -18,4 +18,4 @@ def db_setup():
 engine, session_factory = db_setup()
 
 dp = Dispatcher()
-celery = Celery('main', broker='pyamqp://guest:guest@localhost:5672/')
+celery = Celery('main', broker='pyamqp://guest:guest@rabbitmq:5672/')

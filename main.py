@@ -72,8 +72,6 @@ async def main() -> None:
         if city:
             handle_weather_for_city.apply_async(
                 args=[{"chat_id": city.chat_id, "lat": city.lat, "lon": city.lon, "title": city.title}])
-        else:
-            logging.info("No city found in the database.")
         await dp.start_polling(bot)
 
 

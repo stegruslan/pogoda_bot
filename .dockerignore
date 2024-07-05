@@ -1,0 +1,13 @@
+**
+
+!main.py
+!requirements.txt
+!token_tg.py
+!add_city.py
+!database.py
+!login_and_remove_admin.py
+!models.py
+!remove_to_city.py
+!start_message.py
+!to_know_weather.py
+**/__pycache__
